@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'MaterialSideMenu/Classes/'
+  s.source_files = 'MaterialSideMenu/MaterialSideMenu/Classes/'
   s.swift_versions = '5.0'
   
   # s.resource_bundles = {
