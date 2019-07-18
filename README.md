@@ -7,9 +7,7 @@
 ## Overview
 MaterialSideMenu is a simple Google Material Design-style side menu for iOS
 ### Preview
-| Open with side gesture | Ignoring side gesture | 
-| --- | --- |
-|  |  | 
+![](https://raw.githubusercontent.com/Logomorph/MaterialSideMenu/master/Resources/menu_action.gif)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
