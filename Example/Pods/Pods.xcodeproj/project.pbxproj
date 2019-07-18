@@ -16,7 +16,7 @@
 		B324C23CFC3939683DD0129F8CD152CE /* Pods-MaterialSideMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D647D9965C8F68CD230BD8B1524AE11B /* Pods-MaterialSideMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB728E739BD787064D154D3F2212803E /* MaterialSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1470BFAFE7AD2435D26CDEA174108F8E /* MaterialSideMenu-dummy.m */; };
 		CF7CF8E12A373A32C7FE2564829CA558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E3DB9E9422DF54CE0003EB86 /* MaterialSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB9E9322DF54CE0003EB86 /* MaterialSideMenuViewController.swift */; };
+		E30EC7B822E0671800DAD81F /* MaterialSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EC7B722E0671800DAD81F /* MaterialSideMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		CD41E23A091B58536BCB03885A3B158C /* Pods-MaterialSideMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialSideMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D647D9965C8F68CD230BD8B1524AE11B /* Pods-MaterialSideMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialSideMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D93CDE13497AB907D29AB3D37BF49CDC /* MaterialSideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialSideMenu-Info.plist"; sourceTree = "<group>"; };
-		E3DB9E9322DF54CE0003EB86 /* MaterialSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialSideMenuViewController.swift; path = MaterialSideMenu/Classes/MaterialSideMenuViewController.swift; sourceTree = "<group>"; };
+		E30EC7B722E0671800DAD81F /* MaterialSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialSideMenuViewController.swift; path = MaterialSideMenu/MaterialSideMenuViewController.swift; sourceTree = "<group>"; };
 		E577A1573710CE82CB9399ACEEDDAB37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EB118D25E3A39B14553F7CCE31389EB8 /* Pods-MaterialSideMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialSideMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		F19431D09B14378C56C2206D75F83F48 /* MaterialSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +127,7 @@
 		7878F88FED893EEBD00CEB2354884330 /* MaterialSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				E3DB9E9322DF54CE0003EB86 /* MaterialSideMenuViewController.swift */,
+				E30EC7B722E0671800DAD81F /* MaterialSideMenuViewController.swift */,
 				C97B2FF33E82A2ECE8A2D34DF0B2CC7F /* Pod */,
 				C065432C366A49B671223F7BAD34B12C /* Support Files */,
 			);
@@ -378,7 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB728E739BD787064D154D3F2212803E /* MaterialSideMenu-dummy.m in Sources */,
-				E3DB9E9422DF54CE0003EB86 /* MaterialSideMenuViewController.swift in Sources */,
+				E30EC7B822E0671800DAD81F /* MaterialSideMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
