@@ -1,0 +1,6 @@
+framework module Pods_MaterialSideMenu_Example {
+  umbrella header "Pods-MaterialSideMenu_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "MaterialSideMenu",
+  "version": "0.1.0",
+  "summary": "A short description of MaterialSideMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alinbaciu/MaterialSideMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alinbaciu": "logomorph@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alinbaciu/MaterialSideMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MaterialSideMenu/Classes/**/*"
+}

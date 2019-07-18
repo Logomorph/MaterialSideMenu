@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MaterialSideMenu_Example' do
+  pod 'MaterialSideMenu', :path => '../'
+
+  target 'MaterialSideMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

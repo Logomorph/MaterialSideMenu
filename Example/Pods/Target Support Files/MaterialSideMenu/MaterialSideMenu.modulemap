@@ -1,0 +1,6 @@
+framework module MaterialSideMenu {
+  umbrella header "MaterialSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MaterialSideMenu (0.1.0)
+
+DEPENDENCIES:
+  - MaterialSideMenu (from `../`)
+
+EXTERNAL SOURCES:
+  MaterialSideMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MaterialSideMenu: 6878039f08facbc899f6a45c829f0011f79e0b66
+
+PODFILE CHECKSUM: fa2dd5a331b6136f4836efb4ec882a9f35ba33ef
+
+COCOAPODS: 1.7.4
