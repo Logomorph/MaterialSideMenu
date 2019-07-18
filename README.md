@@ -2,6 +2,8 @@
 
 [![Version](https://img.shields.io/cocoapods/v/MaterialSideMenu.svg?style=flat)](https://cocoapods.org/pods/MaterialSideMenu)
 [![License](https://img.shields.io/cocoapods/l/MaterialSideMenu.svg?style=flat)](https://cocoapods.org/pods/MaterialSideMenu)
+![Swift5](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat%22)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/MaterialSideMenu.svg?style=flat)](https://cocoapods.org/pods/MaterialSideMenu)
 ### If you found MaterialSideMenu helpful and you liked it, give it a ★ at the top right of this page.
 ## Overview
@@ -30,6 +32,13 @@ After that, run the following command:
 ```bash
 $ pod install
 ```
+### Carthage
+To install `MaterialSideMenu` with [Carthage](https://github.com/Carthage/Carthage), add the below line in your `Cartfile`:
+
+```
+github "Logomorph/MaterialSideMenu" "master"
+```
+
 ### Manual
 Copy ```MaterialSideMenuViewController.swift``` into your project and build
 
@@ -61,3 +70,4 @@ None, yet. Please report the issues you find some
 ## License
 
 MaterialSideMenu is available under the MIT license. See the LICENSE file for more info.
+
