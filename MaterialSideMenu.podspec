@@ -9,35 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'MaterialSideMenu'
   s.version          = '0.1.0'
-  s.summary          = 'A Material design style side menu'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A Google Material design style side menu'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A Google Material design style side menu
                        DESC
 
   s.homepage         = 'https://github.com/Logomorph/MaterialSideMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'logomorph' => 'logomorph@gmail.com' }
+  s.author           = { 'logomorph' }
   s.source           = { :git => 'https://github.com/Logomorph/MaterialSideMenu.git', :branch => 'master', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'MaterialSideMenu/*.{h,m,swift}'
   s.swift_versions = '5.0'
-  
-  # s.resource_bundles = {
-  #   'MaterialSideMenu' => ['MaterialSideMenu/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
