@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A Google Material design style side menu'
 
-  s.description      = <<-DESC
-A Google Material design style side menu
-                       DESC
+  #s.description      = <<-DESC
+  #A Google Material design style side menu
+  #                    DESC
 
   s.homepage         = 'https://github.com/Logomorph/MaterialSideMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'logomorph' }
+  s.author           = { 'logomorph' => 'logomorph@gmail.com' }
   s.source           = { :git => 'https://github.com/Logomorph/MaterialSideMenu.git', :branch => 'master', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
