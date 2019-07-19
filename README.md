@@ -9,7 +9,7 @@
 ## Overview
 MaterialSideMenu is a simple Google Material Design-style side menu for iOS
 ### Preview
-![](https://raw.githubusercontent.com/Logomorph/MaterialSideMenu/master/Resources/menu_action.gif)
+![](https://raw.githubusercontent.com/Logomorph/MaterialSideMenu/master/Resources/menu_action2.gif)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -60,6 +60,15 @@ sideMenuViewController.pushViewController(newController, animated: false)
 ```
 This will dismiss all view controllers alread on the stack, except the ```homeViewController``` and add the new controller on top.
 
+When a controller gets pushed, the side gesture to open the menu gets added automatically. If you don't need that, you can add this protocol to the controller you're pushing:
+```swift
+MaterialSideMenuNeedsGestures
+```
+and override its variable to return ```false```
+```swift
+var needsGestures:Bool { return false }
+```
+
 Go home:
 ```swift
 sideMenuViewController.goHome()
@@ -70,4 +79,5 @@ None, yet. Please report the issues you find some
 ## License
 
 MaterialSideMenu is available under the MIT license. See the LICENSE file for more info.
+
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #                    DESC
 
   s.homepage         = 'https://github.com/Logomorph/MaterialSideMenu'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/Logomorph/MaterialSideMenu/master/Resources/menu_action2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'logomorph' => 'logomorph@gmail.com' }
   s.source           = { :git => 'https://github.com/Logomorph/MaterialSideMenu.git', :branch => 'master', :tag => s.version.to_s }
